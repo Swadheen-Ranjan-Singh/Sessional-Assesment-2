@@ -27,15 +27,6 @@
         </svg>
         <span class="ml-3 text-xl">Flow</span>
       </a>
-      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-        <button
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
-      </div>
     </div>
   </header>
   <section class="text-gray-600 body-font">
@@ -50,7 +41,7 @@
         <div class="flex w-full md:justify-start justify-center items-end">
           <button
             class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-            id="apibtn">Fetch Data</button>
+            id="apibtn">Fetch Blogs</button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -58,9 +49,9 @@
       </div>
     </div>
   </section>
-  <section class="text-gray-600 body-font" id="top-blogs">
+  <section class="text-gray-600 body-font" id="top-blogs" style="display: none;">
     <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap -m-4">
+      <div class="flex flex-wrap -m-4" id="blogsec">
         <div class="p-4 lg:w-1/3">
           <div
             class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -330,7 +321,7 @@
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Orange —
           <a href="https://twitter.com/JatanaShivam" rel="noopener noreferrer" class="text-gray-600 ml-1"
-            target="_blank">@JatanaShivam</a>
+            target="_blank">@RanjanSwadheen</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a class="text-gray-500">
